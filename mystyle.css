@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+
+html, body {
+    height: 100%; /* Critical for full-height gradients */
+  }
+  .hero {
+    height: 100%;
+  }
+
+  .hero {
+    background: linear-gradient(to right, #a7c4ff, transparent) !important; /* Force test */
+    min-height: 100vh;
+  }
+
+  /* Hover effects for cards */
+.card {
+    transition: transform 0.3s ease;
+  }
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Social media icons */
+  .bi {
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+  }
+  .bi:hover {
+    color: var(--primary) !important;
+  }
